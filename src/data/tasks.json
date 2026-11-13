@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Build TaskFlow REST API",
+    "description": "Node.js backend final project: Express server, routing, CRUD operations, logger middleware and Postman tests.",
+    "status": "in-progress",
+    "priority": "high",
+    "assignee": "me",
+    "createdAt": "2026-10-19T09:00:00.000Z",
+    "updatedAt": "2026-11-02T14:30:00.000Z"
+  },
+  {
+    "id": 2,
+    "title": "Design NovaStore database",
+    "description": "SQL Server e-commerce database: tables, sample data, join and group by queries, view and backup.",
+    "status": "pending",
+    "priority": "high",
+    "assignee": "me",
+    "createdAt": "2026-10-21T10:15:00.000Z",
+    "updatedAt": "2026-10-21T10:15:00.000Z"
+  },
+  {
+    "id": 3,
+    "title": "Develop JavaScript web app",
+    "description": "Frontend project with a modern JavaScript library: add, list, update and delete features, deployed on Netlify.",
+    "status": "pending",
+    "priority": "medium",
+    "assignee": "me",
+    "createdAt": "2026-10-26T11:40:00.000Z",
+    "updatedAt": "2026-10-26T11:40:00.000Z"
+  },
+  {
+    "id": 4,
+    "title": "Build Flutter mini catalog app",
+    "description": "Mobile app with product list, product detail, navigation, grid cards and a simple cart.",
+    "status": "pending",
+    "priority": "medium",
+    "assignee": "me",
+    "createdAt": "2026-11-03T13:20:00.000Z",
+    "updatedAt": "2026-11-03T13:20:00.000Z"
+  }
+]
