@@ -255,3 +255,29 @@ The `logs/` folder is created automatically if it does not exist, and it is list
 2. In Postman, create requests for the endpoints above using `http://localhost:3001` as the base URL.
 3. For `POST` and `PUT`, choose **Body → raw → JSON** and paste the request body.
    Screenshots of these tests are in [`screenshots`](screenshots).
+
+### Test Screenshots
+
+**GET /tasks** (list all tasks)
+
+![GET all tasks](screenshots/01-get-all-tasks.png)
+
+**GET /tasks/1** (get a single task)
+
+![GET task by id](screenshots/02-get-task-by-id.png)
+
+**POST /tasks** (create a task)
+
+![Create task](screenshots/03-create-task.png)
+
+**PUT /tasks/5** (update a task)
+
+![Update task](screenshots/04-update-task.png)
+
+**DELETE /tasks/5** (delete a task)
+
+![Delete task](screenshots/05-delete-task.png)
+
+**GET /tasks/5** (deleted task returns 404)
+
+![Task not found](screenshots/06-task-not-found.png)
