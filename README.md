@@ -28,7 +28,7 @@ The API lets you create, list, view, update and delete tasks. Every incoming req
 
 ```bash
 # 1. Clone the repository
-git clone <repository-url>
+git clone https://github.com/hazalbuber/taskflow.git
 cd taskflow
 
 # 2. Install dependencies
@@ -73,6 +73,8 @@ taskflow/
 │   └── server.js               # Server entry point
 ├── logs/
 │   └── requests.log            # Created automatically on first request
+├── screenshots/
+│   └── ...                     # Postman test screenshots
 ├── package.json
 └── README.md
 ```
@@ -252,5 +254,4 @@ The `logs/` folder is created automatically if it does not exist, and it is list
 1. Start the server with `npm start`.
 2. In Postman, create requests for the endpoints above using `http://localhost:3001` as the base URL.
 3. For `POST` and `PUT`, choose **Body → raw → JSON** and paste the request body.
-
-Screenshots of these tests are in [`screenshots`](screenshots).
+   Screenshots of these tests are in [`screenshots`](screenshots).
