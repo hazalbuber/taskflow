@@ -1,6 +1,6 @@
 # TaskFlow
 
-[Türkçe sürüm](README.tr.md)
+[Türkçe README](README.tr.md)
 
 A task and project management REST API built with **Node.js** and **Express.js**.
 This is the final project of the Node.js Backend Programming course.
